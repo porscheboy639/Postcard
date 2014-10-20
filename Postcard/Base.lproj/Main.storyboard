@@ -105,6 +105,15 @@
                                     <rect key="frame" x="16" y="308" width="314" height="109"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DjP-Vo-Ems">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="193" width="208" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,6 +123,7 @@
                                 <exclude reference="eDS-Z8-Ut9"/>
                                 <exclude reference="p8u-ou-iYA"/>
                                 <exclude reference="UEC-kT-daE"/>
+                                <exclude reference="DjP-Vo-Ems"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,6 +133,7 @@
                                 <include reference="eDS-Z8-Ut9"/>
                                 <include reference="p8u-ou-iYA"/>
                                 <include reference="UEC-kT-daE"/>
+                                <include reference="DjP-Vo-Ems"/>
                             </mask>
                         </variation>
                     </view>
@@ -131,6 +142,7 @@
                         <outlet property="enterNameTextField" destination="eDS-Z8-Ut9" id="Wm7-oZ-8Va"/>
                         <outlet property="mailButton" destination="p8u-ou-iYA" id="xao-d7-hUs"/>
                         <outlet property="messageLabel" destination="3Hp-rW-ILd" id="Giy-K3-sLh"/>
+                        <outlet property="nameLabel" destination="DjP-Vo-Ems" id="zhQ-w6-8nw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
